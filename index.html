@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <title>Padrão RGB</title>
+</head>
+<body>
+  <form>
+    <p>
+      R (vermelho) :<input type="range" min="0" max="255" value="0" id="sliderR" onchange="rgb_R()" /><input type="text" id="box-R" />
+    </p>
+    <p>
+      G (verde) :<input type="range" min="0" max="255" value="0" id="sliderG" onchange="rgb_G()" /><input type="text" id="box-G" />
+    </p>
+    <p>
+      B (azul) :<input type="range" min="0" max="255" value="0" id="sliderB" onchange="rgb_B()" /><input type="text" id="box-B" />
+    </p>
+    <input type="text" id="bloco-rgb" />
+  </form>
+  <script src="./JS/script.js"></script>
+</body>
+
+</html>

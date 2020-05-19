@@ -1,0 +1,43 @@
+* {
+  margin: 100;
+  padding: 100;
+}
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+}
+
+form {
+  margin: 50px;
+  padding: 10px;
+}
+
+#sliderR {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+#sliderG {
+  margin-left: 35px;
+  margin-right: 20px;
+}
+#sliderB {
+  margin-left: 47px;
+  margin-right: 20px;
+}
+#box-R {
+  width: 50px;
+}
+#box-G {
+  width: 50px;
+}
+#box-B {
+  width: 50px;
+}
+
+#bloco-rgb {
+  margin-left: 150px;
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+}
